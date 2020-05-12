@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tesla</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700&display=swap&subset=cyrillic"
+		rel="stylesheet">
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/slick.css">
 	<link rel="stylesheet" href="./css/style.css">
@@ -13,40 +14,135 @@
 
 <body>
 
-<header class="header">
-	<div class="container">
-		<div class="header-top">
-			<div class="logo">
-				<a href="#">
-					<img src="images/logo.png" alt="">
+	<header class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.png" alt="">
+					</a>
+				</div>
+				<div class="header-btn">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div class="header-content">
+				<h1 class="header-content__title">
+					Roadster
+				</h1>
+				<div class="header-content__text">
+					Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.
+				</div>
+				<a class="header-content__btn" href="#">
+					Хочу тест драйв
 				</a>
 			</div>
-			<div class="header-btn">
-				<div></div>
-				<div></div>
-				<div></div>
+		</div>
+	</header>
+	<section class="slider-top">
+		<div class="slider">
+			<div class="slider__item" style="background-image: url(./images/slide1.jpg);"></div>
+			<div class="slider__item" style="background-image: url(./images/slide2.jpg);"></div>
+			<div class="slider__item" style="background-image: url(./images/slide3.jpg);"></div>
+		</div>
+	</section>
+	<section class="statistics">
+		<div class="container">
+			<div class="statistics-items">
+				<div class="statistics-item">
+					<div class="statistics-item__title">
+						Двигатель
+					</div>
+					<div class="statistics-item__num">
+						2,1 <span>сек</span>
+					</div>
+					<div class="statistics-item__descr">
+						разгон до 100 км
+					</div>
+				</div>
+				<div class="statistics-item">
+					<div class="statistics-item">
+						<div class="statistics-item__title">
+							Батарея
+						</div>
+						<div class="statistics-item__num">
+							1000 <span>км</span>
+						</div>
+						<div class="statistics-item__descr">
+							запас хода
+						</div>
+					</div>
+				</div>
+				<div class="statistics-item">
+					<div class="statistics-item">
+						<div class="statistics-item__title">
+							Скорость
+						</div>
+						<div class="statistics-item__num statistics-item__num--speed">
+							400 <span>км/ч</span>
+						</div>
+						<div class="statistics-item__descr">
+							макс скорость
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="header-content">
-			<h1 class="header-content__title">
-				Roadster
-			</h1>
-			<div class="header-content__text">
-				Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.
-			</div>
-			<a class="header-content__btn" href="#" >
-				Хочу тест драйв
-			</a>
+	</section>
+
+	<section class="images">
+		<div class="container">
+			<img src="./images/section-img.jpg" alt="">
 		</div>
-	</div>
-</header>
-<section class="slider-top">
-	<div class="slider">
-		<div class="slider__item" style="background-image: url(./images/slide1.jpg);"></div>
-		<div class="slider__item" style="background-image: url(./images/slide2.jpg);"></div>
-		<div class="slider__item" style="background-image: url(./images/slide3.jpg);"></div>
-	</div>
-</section>
+	</section>
+
+	<section class="adventages">
+		<div class="container">
+			<div class="adventages-inner">
+				<div class="adventages-inner__row">
+					<div class="adventages-descr">
+						<div class="adventages__title">Скорость</div>
+						<div class="adventages__text">Самый
+							быстроразгоняющийся
+							серийный автомобиль
+							из когда-либо созданных
+						</div>
+					</div>
+					<div class="adventages__ing">
+						<img src="./images/adventages.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="adventages-inner__row">
+					<div class="adventages__ing">
+						<img src="./images/adventages-1.jpg" alt="">
+					</div>
+					<div class="adventages-descr">
+						<div class="adventages__text">
+							<ul>
+								<li>Датчик дождя</li>
+								<li>Датчик света</li>
+								<li>Автопилот</li>
+								<li>Навигационная система
+								</li>
+								<li>Обогрев зеркал
+								</li>
+								<li>Усилитель руля
+								</li>
+								<li>Панорамная крыша
+								</li>
+								<li>Ксеноновые фары</li>
+							</ul>
+						</div>
+						<div class="adventages__title adventages__title--bottom ">Преимущества</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<script src="https://code.jquery.com/jquery-3.5.0.min.js"

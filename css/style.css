@@ -125,3 +125,74 @@ font-family: 'Roboto Condensed', sans-serif;
 .slick-dots {
     padding-left: 0;
 }
+
+.statistics {
+    margin : 160px 0 100px;
+}
+
+.statistics-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.statistics-item__title {
+    margin-bottom: 19px;
+}
+.statistics-item__num {
+    font-size: 96px;
+    line-height: 112px;
+    margin-bottom: 7px;
+}
+.statistics-item__num span {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -20px;
+}
+.statistics-item__descr {
+    color: #b70021;
+}
+.statistics-item__num--speed span {
+    display: inline-block;
+    position: relative;
+}
+.statistics-item__num--speed span::before {
+    content: "+";
+    position: absolute;
+    top: -60px;
+
+}
+
+.adventages-inner__row {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.adventages-descr {
+}
+.adventages__title {
+    line-height: 42px;
+    color: #b70021;
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    
+}
+.adventages__text {
+    width: 303px;
+}
+.adventages-descr {
+    max-width: 570px;
+    width: 100%;
+}
+
+.adventages__title--bottom {
+    right: 0;
+    bottom: 0;
+    top: auto;
+}
+.adventages__ing {
+}
