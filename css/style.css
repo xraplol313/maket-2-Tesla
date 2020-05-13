@@ -75,14 +75,14 @@ font-family: 'Roboto Condensed', sans-serif;
     width: 284px;
     margin-bottom: 25px;
 }
-.header-content__btn {
+.botton {
     display: inline-block;
     border: 1px solid #fff;
     padding: 30px 62px;
     background: rgba(255, 255, 255, 0.15);
     transition: all .5s;
 }
-.header-content__btn:hover {
+.botton:hover {
     background-color: #770302;
 }
 
@@ -171,14 +171,14 @@ font-family: 'Roboto Condensed', sans-serif;
     align-items: center;
     position: relative;
 }
-.adventages-descr {
-}
+
 .adventages__title {
     line-height: 42px;
     color: #b70021;
     font-size: 36px;
     position: absolute;
     top: 0;
+    
     
 }
 .adventages__text {
@@ -194,5 +194,59 @@ font-family: 'Roboto Condensed', sans-serif;
     bottom: 0;
     top: auto;
 }
-.adventages__ing {
+
+.design__images {
+    margin: 100px 0 100px;
+    
 }
+.design-row {
+    display: flex;
+    justify-content: space-between;
+}
+.deasegn-row__item {
+    min-width: 570px;
+    width: 100%;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.design-row__item-nen {
+    color: #b70021;
+}
+.design-row__item-text {
+    max-width: 431px;
+    padding-top: 30px;
+
+}
+.design-row__item {
+    padding-right: 15px;
+}
+
+.footer {
+    background-color: #690102;
+    padding: 83px 0 20px;
+    margin-top: 100px;
+}
+
+.footer-btn {
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.footer-copy {
+    text-align: center;
+    font-weight: 700;
+}
+.footer-copy li {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+.footer-copy li + li::before {
+    content: "|";
+    position: absolute;
+    left: -5px;
+}
+
+
