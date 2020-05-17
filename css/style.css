@@ -193,7 +193,8 @@ font-family: 'Roboto Condensed', sans-serif;
     margin: -55px auto 0;
     position: relative;
     z-index: 6;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
 }
 
 .slick-dots {
@@ -278,7 +279,7 @@ font-family: 'Roboto Condensed', sans-serif;
     justify-content: space-between;
 }
 .deasegn-row__item {
-    min-width: 570px;
+    max-width: 570px;
     width: 100%;
     padding-right: 15px;
     display: flex;
@@ -322,5 +323,120 @@ font-family: 'Roboto Condensed', sans-serif;
     position: absolute;
     left: -5px;
 }
+
+@media (max-width: 1220px) {
+    .adventages__text {
+        padding-left: 20px;
+    }
+    .design__images img {
+        width: 100%;
+    }
+}
+@media (max-width: 1020px) {
+    .design-row {
+        display: block;
+        
+    }
+    .deasegn-row__item {
+        max-width: 100%;
+    }
+    .design-row__item-text {
+        max-width: 100%;
+    }
+    .design__images,
+    .design-row {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .adventages-inner__row {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .adventages__title {
+        position: static;
+    }
+    .adventages-descr {
+        text-align: center;
+    }
+    .adventages__text {
+        margin: 25px auto;
+        padding-left: 0;
+    }
+    .adventages-inner__row--mobile .adventages-descr {
+        order: -1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }
+    .adventages__title--bottom {
+        order: -1;
+    }
+}
+
+@media (max-width: 820px) {
+    .statistics-items {
+        flex-wrap: wrap;
+    }
+    .statistics-items {
+        padding: 50px;
+    }
+
+}
+@media (max-width: 650px) {
+    .adventages__ing img {
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:414px) {
+    .logo img {
+        width: 200px;
+    }
+    
+    .header-content__title {
+        font-size: 70px;
+        margin-top: 20px;
+        line-height: 85px;
+    }
+    .menu__list a {
+        font-size: 30px;
+        line-height: 44px;
+        padding: 19px 10px 7px 0;
+        display: block;
+        min-width: 100%;
+    }
+    .menu__list ul {
+        width: 100%;
+    }
+    .statistics-items {
+        padding: 3px 0;
+        flex-direction: column;
+        
+        
+    }
+    .statistics {
+        margin: 110px 0 50px;
+    }
+    .button {
+        padding: 20px 45px;
+        
+    }
+    .images {
+        margin-bottom: 50px;
+    }
+    body {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .adventages__text {
+        width: 100%;
+    }
+}
+
 
 
